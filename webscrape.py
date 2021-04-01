@@ -40,6 +40,7 @@ data = {
 }
 
 print(data)
+print(json.dumps(data))
 
 # print(driver.page_source.encode("utf-8"))
 driver.quit()
